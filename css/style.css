@@ -1,0 +1,58 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+  font-family: Palatino,serif;
+  background: rgb(239, 229, 232);
+  color: rgb(108, 33, 54);
+  margin: 26px; 
+	
+}
+
+
+#container {
+  border: 4px dashed rgb(184, 74, 105);
+  background: rgb(205, 200, 201);
+  width: 95%;                           
+  max-width: 850px;                
+  margin: auto;
+  padding-left: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+a {
+  color: rgb(175, 123, 123);
+}
+
+a:hover {
+  color: rgb(255, 72, 0);
+}
+
+figure {
+  margin: 15px;
+}
+
+figure img {
+  width: 80%;
+}
+
+figcaption, footer {
+  font-size: 0.70em;
+}

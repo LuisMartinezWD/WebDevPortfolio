@@ -1,0 +1,57 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	font-family: Tahoma;
+	background: #3C6772 ;
+	color:#DBF7FF ;
+	
+}
+
+
+div#container {
+	margin:auto;
+	margin-top:25px;
+	width:800px;
+	border: 1px solid blue;
+	padding:25px;
+	background:#18B587;
+}
+
+header {
+	font-family: Luminari;
+	background:#9DDCC1;
+	width:375px;
+	padding:20px 60px;
+	border: 3px solid grey;
+	margin: 55px auto;
+}
+
+footer {
+	font-size:0.7em;
+	background:#46A5DC;
+	width: 300px;
+	padding:30px 50px;
+	border: 4px dashed black;
+	margin:30px auto;
+}
+
+p.text {
+	width: 625px;
+	padding:40px 20px;
+	border: 2px solid blue;
+	margin:50px auto;
+}
