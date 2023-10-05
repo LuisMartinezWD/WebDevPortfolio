@@ -1,0 +1,94 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+	background-color:#29544f
+
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+.Head {
+color:#89bdb8;
+font-size:95px;
+font-family: 'Young Serif', serif;
+word-spacing:15px;
+position:absolute;
+left:60px;
+top:200px;
+}
+
+
+.Clouds{
+color:#C3eae6;
+font-size:120px;
+font-family: 'Pixelify Sans', sans-serif;
+text-transform:uppercase;
+left:400px;
+top:15px;
+position:absolute;
+opacity:0.3;
+text-shadow: 2px 2px;
+rotate:5deg;
+}
+
+.it{
+color:#89bdb8;
+font-size:95px;
+font-family: 'Young Serif', serif;
+text-transform:uppercase;
+word-spacing:20px;
+left:550px;
+top:300px;
+position:absolute;
+}
+
+.like{
+color:#4ff1db;
+font-size:80px;
+font-family: 'Pixelify Sans', sans-serif;
+text-transform:lowercase;
+word-spacing:15px;
+position:absolute;
+left:750px;
+top:400px;
+text-shadow: 2px 2px black;
+rotate:-15deg;
+}
+
+.rain{
+color:#06dec1;
+font-size:70px;
+font-family: 'Young Serif', serif;
+text-transform:uppercase;
+left:400px;
+top:460px;
+position:absolute;
+rotate:15deg;
+}
+
+.again{
+color:#03ffdd;
+font-size:70px;
+font-family: 'Pixelify Sans', sans-serif;
+text-transform:uppercase;
+left:100px;
+top:30px;
+position:absolute;
+}
+
+footer{
+font-size:15px;
+position:absolute;
+left:25px;
+bottom:30px;
+}
+
+
+
