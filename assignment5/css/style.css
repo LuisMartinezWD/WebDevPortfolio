@@ -1,0 +1,182 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+background-color:#ABCAD6;	
+	
+}
+
+
+#square{
+margin-top: 20px;
+margin-bottom:50px;
+margin-left:10px;
+width:100px;
+height:100px;
+background:#000000;
+transition:all 1s; 
+}
+
+#square:hover{
+background:#A562B1;
+transform: translate(280px,0px);
+
+}
+
+#circle{
+  margin-bottom:50px;
+  margin-left:10px;
+  height: 100px;
+  width: 100px;
+  background:#000000;
+  border-radius: 50%;
+  transition:transform 1s, width 500ms, height 1s; 
+}
+
+#circle:hover{
+background:#BA5A5A;
+transform: translate(400px,0px);
+width:200px;
+height:230px;
+}
+
+#arrow{
+margin-top:10px;
+margin-bottom:40px;
+margin-left:10px;
+font-size:100px;
+transition:all 3s;
+}
+
+#arrow:hover {
+color:#68946C;
+font-size:300px;
+transform: rotate(180deg);
+}
+
+#rectangle{
+margin-bottom:50px;
+margin-left:10px;
+height: 50px;
+width: 100px;
+background-color: #000000;
+transition:width 2s,height 1s, transform 3s, background 2.5s;
+}
+
+#rectangle:hover{
+height:200px;
+width:150px;
+background:#A562B1;
+transform: translate(400px,0px) rotate(-180deg);
+background:#C4BA66;
+}
+
+#parallelogram{
+margin-bottom:50px;
+margin-left:10px;
+width: 100px;
+height: 50px;
+transform: skew(20deg);
+background: #000000;
+transition: all 3.2s;
+}
+
+#parallelogram:hover{
+transform: skew(60deg) translate(380px,35px) rotate(90deg);
+height:180px;
+width:120px;
+background:#5C6197;
+}
+#greekLetter{
+margin-top:10px;
+margin-bottom:50px;
+margin-left:10px;
+font-size:120px;
+transition: all 2s;
+}
+
+#greekLetter:hover{ 
+font-size:250px;
+transform: rotate(15deg) translate(360px,0px) skew(20deg);
+color:#EEAFC4;
+}
+#triangleDown{
+width: 0;
+height: 0;
+margin-bottom:50px;
+margin-left:10px;
+border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+border-top: 50px solid #000000;
+transition: all 2s;
+}
+
+#triangleDown:hover{
+border-left: 75px solid transparent;
+border-right: 75px solid transparent;
+border-top: 100px solid #876131;
+transform: skew(30deg) translate(285px,-10px) rotate(-45deg);
+}
+
+#heart{
+margin-top:10px;
+margin-bottom:40px;
+margin-left:10px;
+font-size:100px;
+transition:all 3s;
+}
+
+#heart:hover{
+color:#CB3434;
+font-size:500px;
+transform: translate(400px,-300px);
+}
+
+#triangleLeft{
+width: 0;
+height: 0;
+margin-bottom:50px;
+margin-left:10px;
+border-top: 25px solid transparent;
+border-right: 50px solid #000000;
+border-bottom: 25px solid transparent;
+transition:all 3s;
+transition-timing-function: ease-in-out;
+}
+
+#triangleLeft:hover {
+border-top: 100px solid transparent;
+border-right: 125px solid #A0A9AC;
+border-bottom: 100px solid transparent;
+transform: skew(30deg) translate(300px,-10px) rotate(-45deg);
+}
+
+#trapezoid{
+margin-bottom:50px;
+margin-left:10px;
+border-bottom: 50px solid #000000;
+border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+height: 0;
+width: 125px;
+transition:width 4s, transform 3s;
+transition-timing-function: ease-in;
+}
+
+#trapezoid:hover {
+width: 200px;
+transform: translate(325px,0px) rotate(-180deg);
+}
