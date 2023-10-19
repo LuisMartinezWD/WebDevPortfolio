@@ -1,0 +1,122 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+font-family: 'Open Sans', sans-serif;
+ background-color:#E4DFAD;
+	
+}
+
+header {
+color:#FBC02D;
+}
+
+#container {
+margin:15px;    
+padding:10px;
+border: 4px dashed grey;
+background-color:#7D5E6F;
+}
+
+#A {
+ padding:12px;
+   background-color:#578187;
+   color:#DAA1BA;
+   border: 2px solid black;
+
+}
+
+#B {
+    padding:12px;
+    background-color:#82A36B;
+    color: #303F9F;
+    border: 2px solid white;
+}
+
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+header{
+color:#C35983;
+}
+
+#container {
+width:725px;
+margin:auto;    
+border: 3px dotted white;
+background-color:#7D5E6F;
+}
+
+#A {
+ padding:12px;
+   background-color:#9A87C8;
+   color:#F4511E;
+   border: 4px solid grey;
+
+}
+
+#B {
+    padding:12px;
+    background-color:#3E6668;
+    color: #CEAEB9;
+    border: 4px solid black;
+}
+	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+ #container{
+width:1000px;
+        margin:auto;
+        padding:.7em;
+        border:4px solid orange;
+    }
+    
+    #A{
+        float: left;
+        width: 400px;
+        margin-top:30px;
+        padding:15px;
+        background-color:#F5AC95;
+        color:#000000;
+        border: 2px solid black;
+    }
+    
+    #B{
+        float: right;
+        width: 500px;
+        margin-top:40px;
+        padding:15px;
+        background: url(../img/BassCat.jpg);
+        color:#3161AC;
+        border:2px solid black;
+    }
+	
+} /* closes 1024px+ */
+
+
+
