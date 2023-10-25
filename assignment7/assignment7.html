@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>Assignment 7</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+ <script>
+        function answerChoices() {
+            var answers = [
+                "Don’t count on it.",
+                "Consider it again.",
+                "Without a doubt.",
+                "No Way!",
+                "You have my support.",
+                "No.",
+                "Do what you want.",
+                "Very doubtful.",
+                "Stop!",
+                "Signs point to yes.",
+                "Signs point to no.",
+                "I suppose so.",
+                "DON'T YOU DARE!",
+                "Do it."
+            ];   
+            var createAnswer = answers[Math.floor(Math.random() * answers.length)];
+            document.getElementById('Result').innerHTML = createAnswer;
+        }
+    </script>
+</head>
+<body>
+<button id="block"> What do you wish to know? </button>
+    <div class="questionDecoration">
+        <form>
+            <p>*Only Yes or No Questions*</p>
+            <input type="text" id="askBox">
+            <input type="button" id="buttonAnswers" onclick="answerChoices()" value="submit">
+        </form>
+    </div>
+
+    <div class="answerDecoration">
+        <p id="Result"></p> 
+    </div>
+</body>
+	
+</html> 

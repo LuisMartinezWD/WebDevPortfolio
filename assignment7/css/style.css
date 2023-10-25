@@ -1,0 +1,76 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+    margin:0px;
+    padding:0px;
+    height:100%;
+}
+
+html {
+        / Standard text-settings below */
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+    background:#16594A ;
+    text-align: center;
+    margin: auto;
+}
+
+#block {
+display:block;
+margin:20px auto;
+text-allign:center;
+font-size:30px;
+font-family:serif;
+width:350px;
+height:175px;
+background-color:#12908E;
+color:#97CECC;
+}
+
+#block:hover{
+transform: skew(-20deg);
+transition: all .8s;
+}
+
+.questionDecoration {
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    color:#F98F45;
+}
+
+#askBox {
+font-size:30px;
+color:#12908E;
+background-color:#97CECC;
+
+}
+
+#buttonAnswers{
+    display: block;
+    margin: 25px auto;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-family: serif;
+    color: #F98F45;
+    height: 100px;
+    width: 250px;
+    background-color: #C4421A;
+}
+
+#buttonAnswers:hover{
+transform: skew(15deg) rotate(-10deg);
+transition: all .8s;
+}
+
+.answerDecoration {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
