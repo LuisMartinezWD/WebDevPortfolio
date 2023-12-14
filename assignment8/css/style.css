@@ -1,0 +1,178 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+a:hover {
+
+	color:#7d0cad;
+
+}
+
+
+body.Home {
+	background: #e5b4ee;
+	color:#650b75;
+	font-family: Arial;
+	
+}
+
+div.background1 {
+	margin:auto;
+	padding-top:45px;
+	height:80px;
+	text-align:center;
+}
+
+div.Links1 {
+	background-color:black;
+}
+
+a.Links {
+	padding-left:20x;
+	padding-right:20px;
+	font-size:25px;
+}
+
+figure img {
+	margin:auto;
+	padding-top:20px;
+	padding-left:320px;
+}
+
+figcaption {
+	padding-left:320px;
+	}
+
+
+h1.Home {
+	text-align:center;
+}
+
+
+
+/* CSS for second page */
+
+ #A{
+        float: left;
+        width: 350px;
+		height:350px;
+        margin-top:30px;
+		margin-left:30px;
+        padding:15px;
+          background: url(../img/Kenny.jpg);
+        color:#000000;
+        border: 2px solid black;
+    }
+    
+    #B{
+        float: right;
+        width: 500px;
+        margin-top:40px;
+		margin-right:30px;
+        padding:15px;
+		background-color:#47aee1;
+        color:#3161AC;
+        border:2px solid black;
+    }
+	
+div.background2 {
+	margin:auto;
+	padding-top:45px;
+	height:80px;
+	text-align:center;
+}
+
+div.Links2 {
+	background-color:blue;
+}
+	
+	body.Favorite {
+	background: #093a53;
+	color:#650b75;
+	font-family: Arial;
+	
+}
+	
+	h1.Favorite{
+		text-align:center;
+	}
+	
+	h1.name{
+		color:white
+		}
+	
+	
+#container {
+	
+}
+
+/* page 3 css */
+h1.best{
+	text-align:center;
+}
+h2.best{
+	text-align:center;
+}
+body.color {
+	background-color:grey;
+}
+div.section {
+	margin:auto;
+	margin-top:5px;
+	background-color:#6d49c1;
+	width:800px;
+	height:450px;
+	border-style:solid;
+}
+
+div.ranking {
+	width:8px;
+	height:100%;
+	float:left;
+}
+
+p.size{
+	font-size:20px;
+}
+
+/* page  4 code */
+
+
+h1.best1{
+	text-align:center;
+	color:blue;
+}
+h2.best1{
+	text-align:center;
+	color:blue;
+}
+body.color1 {
+	background-color:purple;
+}
+div.section1 {
+	margin:auto;
+	margin-top:5px;
+	background-color:#2d39e1;
+	width:800px;
+	height:450px;
+	border-style:solid;
+}
+
+div.ranking {
+	width:8px;
+	height:100%;
+	float:left;
+}
+
+p.size{
+	font-size:20px;
+}
